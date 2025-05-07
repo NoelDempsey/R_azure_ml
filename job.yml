@@ -1,0 +1,14 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+command: >
+  Rscript penguins.R
+  --data_file ${{inputs.penguins_data}}
+code: src
+inputs:
+  penguins_data:
+    type: uri_file
+    path: data/penguins.csv
+environment: azureml:r-basic-environment@latest
+compute: azureml:cpu-cluster
+display_name: job-r-penguins
+experiment_name: job-r-penguins
+description: Ouput subset of Palmer Penguins dataset.
