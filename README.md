@@ -1,8 +1,5 @@
 # r-azure-ml
 
-Author: Noel Dempsey
-Last Updated: 07/05/2025
-
 In this repository we will walk through the steps needed to run and train models using R on Azure ML, including environment creation, job submission and model registration. 
 
 For demonstration purposes we use an extract from the R data package [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) to generate a dummy workflow.
