@@ -56,7 +56,7 @@ This chapter explains how to take an existing R script and make the appropriate 
 Your R project structure should contain the context in which to build an R environment, any data you want to use (depending if you're using AzureStor or not), an `azureml_utils.R` script (if using MLFlow), and job specifications in YAML files.
 
 ```
-📁 r_azure_-_ml
+📁 r_azure_ml
 ├─ docker-context
 | ├─ Dockerfile
 ├─ Data
