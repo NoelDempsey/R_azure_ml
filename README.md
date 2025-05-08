@@ -1,4 +1,4 @@
-# r-azure-ml
+# R Azure ML
 
 In this repository we will walk through the steps needed to run and train models using R on Azure ML, including environment creation, job submission and model registration. 
 
